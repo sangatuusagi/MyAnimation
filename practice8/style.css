@@ -1,0 +1,94 @@
+@charset "utf8";
+
+.kirby{
+  width: 500px;
+  height: 500px;
+  background: pink;
+  border-radius: 50%;
+  border: 5px solid;
+  position: relative;
+  animation: chara 5s forwards;
+}
+
+@keyframes chara {
+  0%{
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  20%{
+    transform: none;
+    opacity: 1;
+  }
+  80%{
+    transform: none;
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(10px);
+    opacity: 1;
+    pointer-events: none;
+  }
+}
+
+.eye{
+  position: absolute;
+  top: 100px;
+  left: 130px;
+  width: 70px;
+  height: 140px;
+  background: black;
+  border-radius: 50%;
+  border: 5px solid;
+}
+
+.eye-2{
+  position: absolute;
+  top: 100px;
+  left: 280px;
+  width: 70px;
+  height: 140px;
+  background: black;
+  border-radius: 50%;
+  border: 5px solid;
+}
+
+.in{
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  top: 0;
+  bottom: 50px;
+  background: white;
+  border-radius: 50%;
+}
+
+.cheeks{
+  position: absolute;
+  top: 260px;
+  left: 50px;
+  width: 100px;
+  height: 50px;
+  background: rgb(236, 34, 159);
+  border-radius: 50%;
+}
+
+.cheeks-2{
+  position: absolute;
+  top: 260px;
+  left: 340px;
+  width: 100px;
+  height: 50px;
+  background: rgb(236, 34, 159);
+  border-radius: 50%;
+}
+
+.mouth{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  width: 85px;
+  height: 90px;
+  background: rgb(192, 20, 20);
+  border: 5px solid black;
+  border-radius: 50px;
+}
